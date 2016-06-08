@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Local Weather</title>
+        <link rel="stylesheet" type="text/css" href="style/font-awesome-4.6.2/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="style/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+    </head>
+    
+    <body>
+        <div class="container text-center">
+            <div class="heading">Local Weather Reporter</div>
+            <div class="row">
+                <div class="col-xs-2">
+                    
+                </div>
+                <div class="col-xs-6">
+                    <div>
+                        <span class="city">,</span>
+                        <span class="country">.</span>
+                    </div>
+                    <div>
+                        <span class="temperature"></span>
+                        <a class="cel_or_fah" onclick="cel_to_fah();"></a>
+                    </div>
+                    <div>
+                        <img class="icon" width="100px" height="100px">
+                        <span class="w_description">.</span>
+                    </div>
+<!--                    <input type="button" onclick="getWeather();" value="Get Weather"/>-->
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="script/bootstrap.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+</body> 
+</html> 

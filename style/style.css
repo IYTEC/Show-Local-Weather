@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+}
+.heading{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 10% 0 3% 0;
+}
+.city, .country{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+}
+.temperature, .cel_or_fah{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+}
+a{
+    text-decoration: none;
+    color: #00009c;
+}
+a:hover{
+    text-decoration: none;
+    color: #2c9cbc;
+}
+a:active{
+    text-decoration: none;
+    color: #2c9cbc;
+}
+.icon{
+    max-height: 150%;
+    max-height: 150%;
+}
+.w_description{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 36px;
+}
